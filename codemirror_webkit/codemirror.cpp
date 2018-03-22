@@ -20,6 +20,7 @@
 #include "codemirror.h"
 
 #include <QtWebKit>
+#include <QWebFrame>
 
 CodeMirror::CodeMirror(QWidget *parent)
     : QWebView(parent)

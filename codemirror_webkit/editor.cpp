@@ -19,8 +19,15 @@
 
 #include "editor.h"
 #include "codemirror.h"
-
 #include <QtGui>
+#include <QtWidgets>
+/*
+#include <QApplication>
+#include <QMenu>
+#include <QMenuBar>
+#include <QMessageBox>
+#include <QFileDialog>
+*/
 
 Editor::Editor(QWidget *parent)
     : QMainWindow(parent)
